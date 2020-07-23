@@ -1,0 +1,194 @@
+@charset "utf-8";
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+.boxCon
+{
+    height: 100%;
+    position: relative;
+}
+.start,.faild
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(230, 230, 230);
+    text-align: left;
+    padding: 0 50px;
+    z-index: 1;
+}
+.faild
+{
+    display: none;
+}
+.faild p
+{
+    position: absolute;
+    z-index: 1;
+    width: 550px;
+    font-size: 20px;
+    top: 200px;
+    border: 1px dashed rgb(146, 146, 146);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+.faild i
+{
+    position: absolute;
+    z-index: 1;
+    width: 550px;
+    font-size: 20px;
+    top: 260px;
+    border: 1px dashed rgb(146, 146, 146);
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+.start p
+{
+    position: absolute;
+    z-index: 1;
+    width: 550px;
+    font-size: 20px;
+    top: 200px;
+    border: 1px dashed rgb(146, 146, 146);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+.start p b
+{
+    font-weight: bold;
+}
+.startBtn,.endBtn
+{
+    width: 130px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 20px;
+    z-index: 1;
+    line-height: 38px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.startBtn:hover,.endBtn:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+main
+{
+    width: 650px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 1px 1px #ccc;
+    background-color: rgb(224, 223, 223);
+}
+#play
+{
+    width: 500px;
+    height: 700px;
+    float: left;
+    background-color: rgb(224, 223, 223);
+    overflow: hidden;
+    position: relative;
+}
+#play div
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.right
+{
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    border-left: 1px solid rgba(194, 194, 194, 1);
+    float: left;
+    height: 100%;
+    width: 150px;
+}
+.nextItem
+{
+    height: 350px;
+    width: 100%;
+    position: relative;
+    border: 1px solid rgb(212, 212, 212);
+}
+.nextItem p
+{
+    display: block;
+    height: 50px;
+    background-color: rgb(231, 230, 230);
+    font-size: 22px;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+.time
+{
+    height: 350px;
+    width: 100%;
+}
+.time p
+{
+    box-sizing: border-box;
+    height: 175px;
+    width: 100%;
+    border: 1px solid rgb(212, 212, 212);
+}
+.time p i 
+{
+    display: block;
+    height: 50px;
+    background-color: rgb(231, 230, 230);
+    font-size: 22px;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+}
+.time p span
+{
+    display: block;
+    height: 125px;
+    text-align: center;
+    line-height: 125px;
+    color: black;
+    font-size: 18px;
+}
+.nextBox
+{
+    width: 100%;
+    position: relative;
+}
+.nextBox div
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(59, 59, 59);
+    border: 1px solid black;
+}

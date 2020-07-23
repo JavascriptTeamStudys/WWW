@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* 清除默认内外边距 */
+body,div,dl,dt,dd,ul
+,ol,li,h1,h2,h3,h4,h5
+,h6,pre,code,form,fieldset
+,legend,input,textarea,p,blockquote,th,td
+{margin:0;padding:0;box-sizing: border-box;}
+/* 设定默认大小字体 */
+body
+{
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+/* 清除列表默认样式 */
+ul,ol,li
+{
+	list-style: none;
+}
+/* 清除默认下划线样式 */
+u,a
+{
+	text-decoration: none;
+	font-size: 16px;
+}
+/* 清除默认倾斜样式 */
+i,em
+{
+	font-style: normal;
+}
+/* 清除默认加粗样式 */
+b,strong
+{
+	font-weight: normal;
+}
+/* 清除标题标签默认样式 */
+h1,h2,h3,h4,h5,h6
+{
+	font-size: 16px;
+	font-weight: normal;
+}
+/* 清除图片边框 */
+img
+{
+	border: none;
+	display: block;
+}
+/* 清除input默认样式 */
+input
+{
+	border: none;
+	outline: none;
+}
+/* 清除textarea默认样式 */
+textarea
+{
+	outline: none;
+	border: none;
+	resize: none;
+}
